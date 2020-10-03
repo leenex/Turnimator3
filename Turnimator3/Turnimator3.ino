@@ -167,7 +167,6 @@ void skid_left(int speed, int direction)
 }
 
 //////////////////////////////////////////////////
-// BUG: REVIEW
 //
 //    ↓A-----B=
 //     | ↙   |
@@ -210,6 +209,7 @@ void skid_right_forward(int speed, int direction)
   MOTORC_STOP(0); MOTORD_FORWARD(pwm_lr);
 }
 
+//////////////////////////////////////////
 //    ↑A-----B↓
 //     |  →  |
 //     |  →  |
@@ -231,7 +231,6 @@ void skid_right(int speed, int direction)
 }
 
 ////////////////////////////////////
-// BUG: REVIEW
 //    =A-----B↓
 //     |   ↘ |
 //     | ↘   |
